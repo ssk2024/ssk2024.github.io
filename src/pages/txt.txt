@@ -1,0 +1,30 @@
+Planning Website Contents 
+
+
+HOME 
+- profile pic 
+- brief about me (SWE skills listed)
+- icons for linkedin, email, 
+
+
+EXPERIENCE 
+- Internships 
+  - Audible, F5, Data Challenge
+- Research 
+  - HCI URS (w link), Urban resilience (link), HRRC (w publication link)
+- Awards & Honors  
+  - URS, engineering honors,  
+- Interests and Organizations 
+  Interest: Ping pong (championship), Volleyball, painting 
+  Orgs - RTC, SWE, AWICS, GHC, 
+
+CONTACT 
+
+RESUME 
+- external pdf link w resume 
+
+---------- 
+- host website for free 
+- buy domain name and attach 
+-
+

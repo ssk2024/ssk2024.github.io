@@ -1,0 +1,85 @@
+/* src/pages.css */
+
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .typed-name {
+    font-size: 3rem;
+    color: #6B46C1; /* Neon purple */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #6B46C1; /* Cursor effect */
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .profile-image {
+    max-width: 80%;
+    height: auto;
+    animation: glideIn 2s ease forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #6B46C1; }
+  }
+  
+  @keyframes glideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
