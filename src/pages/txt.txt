@@ -14,9 +14,13 @@ EXPERIENCE
   - HCI URS (w link), Urban resilience (link), HRRC (w publication link)
 - Awards & Honors  
   - URS, engineering honors,  
-- Interests and Organizations 
-  Interest: Ping pong (championship), Volleyball, painting 
+- ORGS 
   Orgs - RTC, SWE, AWICS, GHC, 
+
+ABOUT meI
+- Interests
+  Interest: Ping pong (championship), Volleyball, painting  
+  (Maybe a picture carousel of favorite photography)
 
 CONTACT 
 
@@ -24,7 +28,7 @@ RESUME
 - external pdf link w resume 
 
 ---------- 
-- host website for free 
-- buy domain name and attach 
--
+ideas 
+- add multiple images on home screen and make them enlarge when hovered 
+- maybe background that moves 
 

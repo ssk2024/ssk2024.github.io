@@ -8,8 +8,8 @@ const Header = () => {
       <NavLink to="/" className="btn">Home</NavLink>
       <div className="flex">
         <NavLink to="/resume" className="right-btn">Resume</NavLink>
-        <NavLink to="/about" className="right-btn">About Me</NavLink>
-        <NavLink to="/contact" className="right-btn">Contact</NavLink>
+        <NavLink to="/aboutme" className="right-btn">About Me</NavLink>
+        <NavLink to="/experience" className="right-btn">Experience</NavLink>
       </div>
     </div>
   );

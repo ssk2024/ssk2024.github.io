@@ -7,8 +7,8 @@ import profileImage from '../linkedin_photo.jpg'; // Replace with the correct pa
 const HomePage = () => {
   const [typedName, setTypedName] = useState('');
   const [showParagraph, setShowParagraph] = useState(false);
-  const fullName = 'Your Name'; // Replace with your name
-  const description = 'This is a brief description about yourself. You can add more details here.';
+  const fullName = 'Kavya Kotra'; 
+  const description = 'This is a brief description about yourself. add more details here.';
 
   useEffect(() => {
     let currentIndex = 0;
