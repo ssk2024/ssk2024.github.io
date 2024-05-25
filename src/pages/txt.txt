@@ -3,6 +3,7 @@ Planning Website Contents
 
 HOME 
 - profile pic 
+- gif in background
 - brief about me (SWE skills listed)
 - icons for linkedin, email, 
 
@@ -17,10 +18,15 @@ EXPERIENCE
 - ORGS 
   Orgs - RTC, SWE, AWICS, GHC, 
 
-ABOUT meI
+ABOUT me
+- Education
+  List Education.
+  "Click on Experiences to learn more about my skills!"
 - Interests
   Interest: Ping pong (championship), Volleyball, painting  
-  (Maybe a picture carousel of favorite photography)
+  (Maybe a picture carousel of favorite photography) 
+- Travel / Photography 
+  Scrolling pics 
 
 CONTACT 
 
@@ -32,3 +38,6 @@ ideas
 - add multiple images on home screen and make them enlarge when hovered 
 - maybe background that moves 
 
+inspirations 
+- https://www.taniarascia.com/ 
+- 

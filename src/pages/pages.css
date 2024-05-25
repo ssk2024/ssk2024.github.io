@@ -108,7 +108,7 @@
 
 .experience-box {
   width: 80%; /* Adjust the width of the boxes */
-  max-width: 400px; /* Set a maximum width for the boxes */
+  max-width: 700px; /* Set a maximum width for the boxes */
   padding: 20px;
   margin: 20px auto; /* Center the boxes horizontally */
   background-color: rgba(204, 153, 255, 0.3); /* Transparent light purple */
@@ -129,20 +129,24 @@
 
 
 .experience-box-title {
-  font-size: 1.5rem;
+  font-size:2rem; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 15px;
-  color: black;
+  color: white;
 }
 
 .experience-box-header {
+  text-align: left;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
+  padding-top: 25px;
 }
 
 .experience-box-subpoints {
   margin-top: 10px; 
+  text-align: left;
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 60px;
 }
 
 .experience-box-subpoints li {
@@ -152,6 +156,7 @@
 
 .side-menu {
   position: fixed;
+  text-align: left;
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
@@ -163,7 +168,7 @@
 
 .side-menu ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 25px;
 }
 
 .side-menu li {
@@ -175,4 +180,15 @@
 .side-menu li.active {
   transform: scale(1.2);
   font-size: 1.2rem;
+}
+
+.side-menu a,
+.side-menu button {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
 }
