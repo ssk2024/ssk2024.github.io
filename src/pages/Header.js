@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <div className="flex justify-between p-4 bg-black text-white">
-      <NavLink to="/" className="btn">Home</NavLink>
+      <NavLink to="/" className="btn">Kavya Kotra</NavLink>
       <div className="flex">
         <NavLink to="/resume" className="right-btn">Resume</NavLink>
         <NavLink to="/aboutme" className="right-btn">About Me</NavLink>

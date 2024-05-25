@@ -5,7 +5,7 @@ HOME
 - profile pic 
 - gif in background
 - brief about me (SWE skills listed)
-- icons for linkedin, email, 
+- icons for contact: linkedin, email, etc. 
 
 
 EXPERIENCE 
@@ -22,6 +22,7 @@ ABOUT me
 - Education
   List Education.
   "Click on Experiences to learn more about my skills!"
+  - mention contact 
 - Interests
   Interest: Ping pong (championship), Volleyball, painting  
   (Maybe a picture carousel of favorite photography) 

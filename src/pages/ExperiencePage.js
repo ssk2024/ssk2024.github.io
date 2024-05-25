@@ -49,18 +49,21 @@ const ExperiencePage = () => {
           <h2 className='experience-box-title' >⭐ Internships</h2>
           <ul>
             <li className='experience-box-header'>Audible</li> {/* TODO: ADD LINKS FOR COMPANIES */}
+            <ul className='experience-job-title'>Software Engineer Intern | May 2023 - Aug 2023</ul>
             <ul className='experience-box-subpoints'>
               <li>Subpoint 1</li>
               <li>Subpoint 2</li>
               <li>Subpoint 3</li>
             </ul>
             <li className='experience-box-header'>F5, Inc.</li>
+            <ul className='experience-job-title'>Software Engineer Intern  | June 2022 - Aug 2022</ul>
             <ul className='experience-box-subpoints'>
               <li>Subpoint 1</li>
               <li>Subpoint 2</li>
               <li>Subpoint 3</li>
             </ul>
-            <li className='experience-box-header'>Meta - Data Challenge Apprenticeship</li>
+            <li className='experience-box-header'>Meta - Data Challenge Finalist</li>
+            <ul className='experience-job-title'>Data Challenge Finalist  |  Apr 2022 - Aug 2022 </ul>
             <ul className='experience-box-subpoints'>
               <li>♦ Selected as on of 80 finalists by Meta to participate in a 5 month program. </li>
               <li>Subpoint 2</li>
@@ -73,11 +76,30 @@ const ExperiencePage = () => {
         <div className='experience-box'  id = "section-2">
           <h2 className='experience-box-title'>🔬 Research </h2>
           <ul>
-            <li className='experience-box-header'>Header 2:</li>
+            <li className='experience-box-header'>Human Computer Interaction Engineering and Design Lab</li>
+            <ul className='experience-job-title'>Undergraduate Research Scholar</ul>
             <ul className='experience-box-subpoints'>
-              <li>Subpoint 1</li>
-              <li>Subpoint 2</li>
-              <li>Subpoint 3</li>
+              <li>♦ AccessLens is a prototyped that detects inaccessible objects in indoor spaces.</li>
+              <li>♦ As a researcher, I identified, designed, and developed software accessibility improvements for AccessLens.</li>
+              <a className='experience-links' href="https://hcied.info/"  target="_blank">♦ Link to the HCIED Lab Website</a>
+              <li>♦ [Coming Soon] Link to Published Thesis: 'Designing and Improving Software Accessibility of AccessLens' </li>
+              {/*Link to thesis, link to website */}
+            </ul>
+          </ul> 
+          <ul>
+            <li className='experience-box-header'>Urban Reslience AI Lab</li>
+            <ul className='experience-job-title'>Undergraduate Researcher</ul>
+            <ul className='experience-box-subpoints'>
+              <li>♦ Analyzed and mapped sentiment patterns of data regarding real time outages and business impacts of Hurricane Ida.</li>
+            </ul>
+          </ul>
+          <ul>
+            <li className='experience-box-header'>Hazard Reduction and Recovery Center</li>
+            <ul className='experience-job-title'>Undergraduate Researcher Assistant</ul>
+            <ul className='experience-box-subpoints'>
+              <li>♦ Collected, analyzed Federal Domestic Assistance information for 7,500+ programs.</li>
+              <a className='experience-links' href="https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3367"  target="_blank">♦ Link to my Publication Poster: Examining Federal Domestic Assistance Programs</a>
+              
             </ul>
           </ul>
         </div>
@@ -121,6 +143,8 @@ const ExperiencePage = () => {
             </ul>
           </ul>
         </div>
+
+        {/* Projects */}
 
 
       </div>
