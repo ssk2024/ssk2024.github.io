@@ -149,3 +149,30 @@
   margin-bottom: 5px;
   color: white;
 }
+
+.side-menu {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu li {
+  margin: 10px 0;
+  cursor: pointer;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.side-menu li.active {
+  transform: scale(1.2);
+  font-size: 1.2rem;
+}
