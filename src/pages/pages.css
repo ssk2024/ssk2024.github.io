@@ -38,7 +38,7 @@
   margin-top: 20px;
   font-size: 1.2rem;
   opacity: 0;
-  animation: fadeIn 2s forwards;
+  animation: fadeIn 1s forwards;
   color: white;
 }
 
@@ -48,7 +48,7 @@
   border-radius: 10%;
   opacity: 0;
   animation: fadeInFromBottom 2s forwards;
-  animation-delay: 1.5s; /* Delay to match the paragraph fade in */
+  animation-delay: 0s; /* Delay to match the paragraph fade in */
 }
 
 .button-container {
