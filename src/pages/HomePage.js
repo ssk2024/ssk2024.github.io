@@ -7,7 +7,7 @@ const HomePage = () => {
   const [typedName, setTypedName] = useState('');
   const [showParagraph, setShowParagraph] = useState(false);
   const fullName = 'Kavya Kotra';
-  const description = '✨ Hello! I am a recent graduate from Texas A&M University with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
+  const description = '✨ Hello! I am a graduate from Texas A&M University with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
   // const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also like ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
 
   useEffect(() => {

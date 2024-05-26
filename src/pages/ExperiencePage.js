@@ -22,7 +22,7 @@ const ExperiencePage = () => {
 
   return (
     <div className="experience-container">
-      <h1 className='experience-title'>🚀 Experience</h1>
+      <h1 className='experience-title'>🚀 Professional Experience</h1>
       <p> Here is an overview of my experience!</p>
 
       {/* Floating side menu bar */}
@@ -79,7 +79,7 @@ selection counts.</li>
             <li className='experience-box-header'>Human Computer Interaction Engineering and Design Lab</li>
             <ul className='experience-job-title'>Undergraduate Research Scholar</ul>
             <ul className='experience-box-subpoints'>
-              <li>♦ AccessLens is a prototyped that detects inaccessible objects in indoor spaces.</li>
+              <li>♦ AccessLens is a prototype that detects inaccessible objects in indoor spaces.</li>
               <li>♦ As a researcher, I identified, designed, and developed software accessibility improvements for AccessLens.</li>
               <a className='experience-links' href="https://hcied.info/"  target="_blank">♦ Link to the HCIED Lab Website</a>
               <li>♦ [Coming Soon] Link to Published Thesis: 'Designing and Improving Software Accessibility of AccessLens' </li>
@@ -87,7 +87,7 @@ selection counts.</li>
             </ul>
           </ul> 
           <ul>
-            <li className='experience-box-header'>Urban Reslience AI Lab</li>
+            <li className='experience-box-header'>Urban Resilience AI Lab</li>
             <ul className='experience-job-title'>Undergraduate Researcher</ul>
             <ul className='experience-box-subpoints'>
               <li>♦ Analyzed and mapped sentiment patterns of data regarding real time outages and business impacts of Hurricane Ida.</li>
@@ -146,7 +146,7 @@ selection counts.</li>
 
             <li className='experience-box-header'>Activities:</li>
             <ul className='experience-box-subpoints'>
-              <li>♦ Competed in Intramural ping pong tournament and won first place in our division.</li>
+              <li>♦ Competed in intramural ping pong tournament and won first place in our division.</li>
               <li>♦ I also really enjoy roller skating and ice skating. I participated in a semester long ice skating program.</li>
               <li>♦ I enjoy playing volleyball and play recreationally.</li>
             </ul>
