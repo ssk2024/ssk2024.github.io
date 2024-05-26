@@ -34,8 +34,18 @@ const HomePage = () => {
           {showParagraph && (
             <p className="description">{description}</p>
           )}
-          
+
+        <div className="button-container">
+          <a href="https://www.linkedin.com/in/kavyakotra/" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
+          <i className="fa fa-linkedin-square"></i> LinkedIn
+          </a>
+          <a href="mailto:kotrakavya2020@gmail.com" target="_blank" rel="noopener noreferrer" className="social-button gmail">
+          <i className="fa fa-envelope"></i> Gmail
+          </a>
+        </div>
       </div>
+
+      
     </div>
   );
 };
