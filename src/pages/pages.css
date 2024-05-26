@@ -1,88 +1,86 @@
 /* HOME PAGE */
 
+/* pages.css */
+
 .homepage-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: black;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 30%;
   
-  .content-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-  }
-  
-  .name-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex: 1;
-  }
-  
-  .typed-name {
-    font-size: 3rem;
-    color: #6B46C1; /* Neon purple */
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 0.15em solid #6B46C1; /* Cursor effect */
-    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
-  }
-  
-  .description {
-    font-size: 1.2rem;
-    color: white;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; /* Center align text */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-container {
+  margin-bottom: 0px;
+}
+
+.typed-name {
+  font-size: 3rem;
+  color: #6B46C1; /* Neon purple */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #6B46C1; /* Cursor effect */
+  animation: typing 1.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  color: white;
+}
+
+.profile-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  opacity: 0;
+  animation: fadeInFromBottom 2s forwards;
+  animation-delay: 1.5s; /* Delay to match the paragraph fade in */
+}
+
+@keyframes fadeIn {
+  from {
     opacity: 0;
-    animation: fadeIn 4s forwards;
-    margin-top: 20px;
   }
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+  to {
+    opacity: 1;
   }
-  
-  .profile-image {
-    max-width: 80%;
-    height: auto;
-    margin-left: 80px;
-    animation: glideIn 2s ease forwards;
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
   }
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #6B46C1; }
-  }
-  
-  @keyframes glideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #6B46C1; }
+}
+
 
 
 /* EXPERIENCE */
