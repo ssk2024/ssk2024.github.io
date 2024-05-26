@@ -37,3 +37,18 @@ body {
   background-color: #6B46C1; /* Neon purple */
   color: white;
 }
+
+/* styles for Resume button */
+.resume-btn {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.resume-btn:hover {
+  background-color: #6B46C1; /* Neon purple */
+  color: white;
+}
+
+
