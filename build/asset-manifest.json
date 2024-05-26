@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ssk2024.github.io/static/css/main.e8ba3579.css",
+    "main.js": "/ssk2024.github.io/static/js/main.f21c779d.js",
+    "static/media/grad_photo_1.jpg": "/ssk2024.github.io/static/media/grad_photo_1.be4334fcdf1d7328b68e.jpg",
+    "index.html": "/ssk2024.github.io/index.html",
+    "main.e8ba3579.css.map": "/ssk2024.github.io/static/css/main.e8ba3579.css.map",
+    "main.f21c779d.js.map": "/ssk2024.github.io/static/js/main.f21c779d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ba3579.css",
+    "static/js/main.f21c779d.js"
+  ]
+}
