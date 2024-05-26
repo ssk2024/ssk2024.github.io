@@ -13,7 +13,7 @@ const Header = () => {
       <div className="flex">
         <button className="right-btn resume-btn" onClick={openResume}>Resume</button>
         <NavLink to="/experience" className="right-btn">Experience</NavLink>
-        <NavLink to="/aboutme" className="right-btn">About Me</NavLink>
+        {/*<NavLink to="/aboutme" className="right-btn">About Me</NavLink>*/}
       </div>
     </div>
   );

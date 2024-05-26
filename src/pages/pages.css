@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-left: 30%;
+  margin-left: 20%; /* ABOUTME Change to 30%*/
   
   background-color: black;
   color: white;
@@ -23,6 +23,7 @@
 
 .name-container {
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .typed-name {
@@ -30,6 +31,7 @@
   color: #6B46C1; /* Neon purple */
   white-space: nowrap;
   overflow: hidden;
+  
   border-right: 0.15em solid #6B46C1; /* Cursor effect */
   animation: typing 1.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }

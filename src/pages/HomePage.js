@@ -7,7 +7,8 @@ const HomePage = () => {
   const [typedName, setTypedName] = useState('');
   const [showParagraph, setShowParagraph] = useState(false);
   const fullName = 'Kavya Kotra';
-  const description = 'Hello, welcome to my profile. Feel free to reach out! ';
+  const description = '✨ Hello! I am a recent graduate from Texas A&M University with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
+  // const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also like ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
 
   useEffect(() => {
     let currentIndex = 0;
@@ -31,9 +32,11 @@ const HomePage = () => {
           
         </div>
         <img src={profileImage} alt="Profile" className="profile-image" />
+        {/*<p className="description">{description}</p>*/}
           {showParagraph && (
             <p className="description">{description}</p>
           )}
+          
 
         <div className="button-container">
           <a href="https://www.linkedin.com/in/kavyakotra/" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
