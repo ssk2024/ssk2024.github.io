@@ -1,13 +1,13 @@
 // src/pages/HomePage.js
 import React, { useEffect, useState } from 'react';
 import './pages.css';
-import profileImage from '../images/grad_photo_1.jpg'; // Replace with the correct path to your image
+import profileImage from '../images/city_photo.jpg'; // Replace with the correct path to your image
 
 const HomePage = () => {
   const [typedName, setTypedName] = useState('');
   const [showParagraph, setShowParagraph] = useState(false);
   const fullName = 'Kavya Kotra';
-  const description = '✨ Hello! I am a graduate from Texas A&M University with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
+  const description = '✨ Hello! I\'m currently a SDE at Amazon Web Services and a recent graduate with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
   // const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also like ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
 
   useEffect(() => {

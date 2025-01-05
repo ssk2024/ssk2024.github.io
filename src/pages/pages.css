@@ -45,8 +45,8 @@
 }
 
 .profile-image {
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   border-radius: 10%;
   opacity: 0;
   animation: fadeInFromBottom 2s forwards;

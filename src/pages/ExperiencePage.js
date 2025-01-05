@@ -17,38 +17,46 @@ const ExperiencePage = () => {
     const handleClick = (sectionId, index) => {
       document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
       setActiveSection(index);
-    };
+    }; 
+
+    const headers = ['🚀 Work History', '🔬 Research', '🏆 Honors and Awards', '🌎 Activities'];
 
 
   return (
     <div className="experience-container">
-      <h1 className='experience-title'>🚀 Professional Experience</h1>
-      <p> Here is an overview of my experience!</p>
+      <h1 className='experience-title'>✨ Professional Experience</h1>
+      {/*<p> Here is an overview of my experience!</p>*/}
 
       {/* Floating side menu bar */}
       <div className="side-menu">
       <ul>
           <li className={activeSection === 0 ? 'active' : ''}>
-            <button onClick={() => handleClick('section-1', 0)}> ⭐ Internships</button>
+            <button onClick={() => handleClick('section-1', 0)}>{headers[0]}</button>
           </li>
           <li className={activeSection === 1 ? 'active' : ''}>
-            <button onClick={() => handleClick('section-2', 1)}>🔬 Research</button>
+            <button onClick={() => handleClick('section-2', 1)}>{headers[1]}</button>
           </li>
           <li className={activeSection === 2 ? 'active' : ''}>
-            <button onClick={() => handleClick('section-3', 2)}>🏆 Honors and Awards</button>
+            <button onClick={() => handleClick('section-3', 2)}>{headers[2]}</button>
           </li>
           <li className={activeSection === 3 ? 'active' : ''}>
-            <button onClick={() => handleClick('section-4', 3)}>🌎 Activities </button>
+            <button onClick={() => handleClick('section-4', 3)}>{headers[3]}</button>
           </li>
         </ul>
       </div>
 
       <div className='experience-boxes'>
 
-        {/* Internships */}
+        {/* Work History */}
         <div className='experience-box' id = "section-1">
-          <h2 className='experience-box-title' >⭐ Internships</h2>
+          <h2 className='experience-box-title' >{headers[0]}</h2>
           <ul>
+            <li className='experience-box-header'>Amazon Web Services</li> {/* TODO: ADD LINKS FOR COMPANIES */}
+            <ul className='experience-job-title'>Software Dev Engineer | Seattle, WA | June 2024 - Present </ul>
+            <ul className='experience-box-subpoints'>
+              <li>♦ EC2 Networking Load Balancing </li>
+            </ul>
+
             <li className='experience-box-header'>Audible</li> {/* TODO: ADD LINKS FOR COMPANIES */}
             <ul className='experience-job-title'>Software Engineer Intern | May 2023 - Aug 2023</ul>
             <ul className='experience-box-subpoints'>
@@ -74,7 +82,7 @@ selection counts.</li>
 
         {/* Research */}
         <div className='experience-box'  id = "section-2">
-          <h2 className='experience-box-title'>🔬 Research </h2>
+          <h2 className='experience-box-title'>{headers[1]}</h2>
           <ul>
             <li className='experience-box-header'>Human Computer Interaction Engineering and Design Lab</li>
             <ul className='experience-job-title'>Undergraduate Research Scholar</ul>
@@ -82,7 +90,11 @@ selection counts.</li>
               <li>♦ AccessLens is a prototype that detects inaccessible objects in indoor spaces.</li>
               <li>♦ As a researcher, I identified, designed, and developed software accessibility improvements for AccessLens.</li>
               <a className='experience-links' href="https://hcied.info/"  target="_blank">♦ Link to the HCIED Lab Website</a>
-              <li>♦ [Coming Soon] Link to Published Thesis: 'Designing and Improving Software Accessibility of AccessLens' </li>
+              <li></li>
+              <a className='experience-links' 
+                href="https://oaktrust.library.tamu.edu/items/b136ff39-670a-4d57-8671-554154547adf"  target="_blank">
+                  ♦ Link to Published Thesis: 'Designing and Improving Software Accessibility of AccessLens'</a>
+              
               {/*Link to thesis, link to website */}
             </ul>
           </ul> 
@@ -106,7 +118,7 @@ selection counts.</li>
 
         {/* Awards & Honors */}
         <div className='experience-box' id = "section-3">
-          <h2 className='experience-box-title'>🏆 Honors and Awards </h2>
+          <h2 className='experience-box-title'>{headers[2]} </h2>
           <ul>
             <li className='experience-box-header'>Undergraduate Research Scholar</li>
             <ul className='experience-box-subpoints'>
@@ -134,9 +146,9 @@ selection counts.</li>
           </ul>
         </div>
 
-        {/* Organizations */}
+        {/* Activities */}
         <div className='experience-box' id = "section-4">
-          <h2 className='experience-box-title'>🌎 Activities</h2>
+          <h2 className='experience-box-title'>{headers[3]}</h2>
           <ul>
             <li className='experience-box-header'>Organizations:</li>
             <ul className='experience-box-subpoints'>
