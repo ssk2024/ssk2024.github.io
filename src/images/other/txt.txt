@@ -2,13 +2,14 @@ Planning Website Contents
 
 
 6/22 goals 
-- revamp UI to lighter theme  
-- add experience info + links
-- connect + buy proper domain 
-- push to github 
+x revamp UI to lighter theme  
+x add experience info + links
 
 future updates 
-- 
+- domain 
+- separate about me section 
+- change up experience page 
+- add updated resume
 
 HOME 
 - profile pic 
@@ -18,13 +19,13 @@ HOME
 
 EXPERIENCE 
 - Internships 
-  - Audible, F5, Data Challenge
+  - Amzn, Audible, F5
 - Research 
   - HCI URS (w link), Urban resilience (link), HRRC (w publication link)
 - Awards & Honors  
   - URS, engineering honors,  
 - ORGS 
-  Orgs - RTC, SWE, AWICS, GHC, 
+  Orgs - RTC, SWE, AWICS, GHC
 
 ABOUT me
 - Education
@@ -39,13 +40,15 @@ ABOUT me
 
 CONTACT 
 
-RESUME 
-- external pdf link w resume 
 
 ---------- 
 ideas 
 - add multiple images on home screen and make them enlarge when hovered 
 - maybe background that moves 
+
+github deploy 
+- push changes 
+- npm run deploy // to publish
 
 inspirations 
 - https://www.taniarascia.com/ 

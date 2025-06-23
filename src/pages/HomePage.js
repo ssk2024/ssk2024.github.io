@@ -8,7 +8,7 @@ const HomePage = () => {
   const [showParagraph, setShowParagraph] = useState(false);
   const fullName = 'Kavya Kotra';
   const description = '✨ Hello! I\'m currently a SDE at Amazon Web Services based in Seattle. Feel free to reach out and leave a message! 🚀'; // {Email}
-  // const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also like ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
+  const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also enjoy ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
 
   useEffect(() => {
     let currentIndex = 0;
@@ -34,10 +34,10 @@ const HomePage = () => {
         <img src={profileImage} alt="Profile" className="profile-image" />
         {/*<p className="description">{description}</p>*/}
           {showParagraph && (
-            <p className="description">{description}
-              <kbd>kotrakavya2020@gmail.com</kbd> </p>
+            <><p className="description">{description}
+              <kbd>kotrakavya2020@gmail.com</kbd> 
+            </p></>
           )}
-          
 
         <div className="button-container">
           <a href="https://www.linkedin.com/in/kavyakotra/" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
@@ -47,10 +47,14 @@ const HomePage = () => {
           <i className="fa fa-envelope"></i> Gmail
           </a>
         </div>
-      </div>
-      
 
-      
+        <div>
+          {showParagraph && (
+              <p className="description">{description2}</p>
+            )}
+        </div>
+
+      </div>
       
     </div>
   );

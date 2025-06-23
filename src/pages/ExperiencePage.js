@@ -54,6 +54,7 @@ const ExperiencePage = () => {
             <li className='experience-box-header'>Amazon Web Services</li> {/* TODO: ADD LINKS FOR COMPANIES */}
             <ul className='experience-job-title'>Software Dev Engineer | Seattle, WA | June 2024 - Present </ul>
             <ul className='experience-box-subpoints'>
+              <li>♦ AWS Ground Truth </li>
               <li>♦ EC2 Networking Load Balancing </li>
             </ul>
 
@@ -61,14 +62,17 @@ const ExperiencePage = () => {
             <ul className='experience-job-title'>Software Engineer Intern | May 2023 - Aug 2023</ul>
             <ul className='experience-box-subpoints'>
               <li>♦ Audio and Digital Assets Management Team.</li>
-              <li>♦ Created metadata error queue to manage audio and digital assets sent from third party publishers.</li>
-              <li>♦ Standardized quality control check process for metadata operators, eliminated manual handling, significantly enhanced overall efficiency for 3 teams.</li>
+              <li>♦ Engineered and automated Metadata Error Queue system (Java/JavaScript/SQL) reducing operator processing time by 98%.</li>
+              <li>♦ Standardized quality control process across 3 teams by 100% eliminating manual handling of publisher assets.</li>
+              <li>♦ Created feature flags in AWS parameter store to track ‘skippable’ marketplaces and updated logic in Java for republishing titles in select markets. Developed and conducted unit tests in JUnit.</li>
+              <li>♦ Led 3 user interviews with 30+ engineers to gain insights into the current metadata error queue process.</li>
             </ul>
             <li className='experience-box-header'>F5, Inc.</li>
             <ul className='experience-job-title'>Software Engineer Intern  | June 2022 - Aug 2022</ul>
             <ul className='experience-box-subpoints'>
-              <li>♦ Programmed notification system to identify security measures that fail with the latest updates by identifying flag
-differences for various Operating Systems, Browsers, and Web Versions.</li>
+              <li>♦ Programmed notification system to identify security measures that fail with the latest updates by identifying flag differences for various Operating Systems, Browsers, and Web Versions using Python, SQL, GCP.</li>
+              <li>♦ Displayed high-priority alerts in Insight, developed UI using React JS, and integrated into the current environment.</li>
+              <li>♦ Presented a full product demo to 40+ engineers.</li>
             </ul>
             <li className='experience-box-header'>Meta/Facebook - Data Challenge Finalist</li>
             <ul className='experience-job-title'>Data Challenge Finalist  |  Apr 2022 - Aug 2022 </ul>
@@ -88,16 +92,16 @@ selection counts.</li>
             <ul className='experience-job-title'>Undergraduate Research Scholar</ul>
             <ul className='experience-box-subpoints'>
               <li>♦ AccessLens is a prototype that detects inaccessible objects in indoor spaces.</li>
-              <li>♦ As a researcher, I identified, designed, and developed software accessibility improvements for AccessLens.</li>
-              <a className='experience-links' href="https://hcied.info/"  target="_blank">♦ Link to the HCIED Lab Website</a>
+              <li>♦ Implemented a Python/Flask backend service that processes real-time computer vision data to detect accessibility barriers in indoor spaces.</li>
+              <li>♦ Developed responsive web interface using JavaScript to visualize 3D-printable accessibility solutions following WCAG.</li>
+              {/* <a className='experience-links' href="https://hcied.info/"  target="_blank">♦ Link to the HCIED Lab Website</a> */}
               <li></li>
               <a className='experience-links' 
                 href="https://oaktrust.library.tamu.edu/items/b136ff39-670a-4d57-8671-554154547adf"  target="_blank">
                   ♦ Link to Published Thesis: 'Designing and Improving Software Accessibility of AccessLens'</a>
-              
-              {/*Link to thesis, link to website */}
             </ul>
           </ul> 
+          
           <ul>
             <li className='experience-box-header'>Urban Resilience AI Lab</li>
             <ul className='experience-job-title'>Undergraduate Researcher</ul>
