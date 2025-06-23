@@ -1,9 +1,17 @@
 Planning Website Contents 
 
 
+6/22 goals 
+- revamp UI to lighter theme  
+- add experience info + links
+- connect + buy proper domain 
+- push to github 
+
+future updates 
+- 
+
 HOME 
 - profile pic 
-- gif in background
 - brief about me (SWE skills listed)
 - icons for contact: linkedin, email, etc. 
 

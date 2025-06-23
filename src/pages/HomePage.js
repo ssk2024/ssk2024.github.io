@@ -7,7 +7,7 @@ const HomePage = () => {
   const [typedName, setTypedName] = useState('');
   const [showParagraph, setShowParagraph] = useState(false);
   const fullName = 'Kavya Kotra';
-  const description = '✨ Hello! I\'m currently a SDE at Amazon Web Services and a recent graduate with a B.S in Computer Science. Feel free to reach out and leave a message! 🚀';
+  const description = '✨ Hello! I\'m currently a SDE at Amazon Web Services based in Seattle. Feel free to reach out and leave a message! 🚀'; // {Email}
   // const description2 = '🎨 I love painting and reading in my free time. ⛸️ I also like ice skating, roller skating, volleyball, and competed in intramural ping pong🏓';
 
   useEffect(() => {
@@ -34,7 +34,8 @@ const HomePage = () => {
         <img src={profileImage} alt="Profile" className="profile-image" />
         {/*<p className="description">{description}</p>*/}
           {showParagraph && (
-            <p className="description">{description}</p>
+            <p className="description">{description}
+              <kbd>kotrakavya2020@gmail.com</kbd> </p>
           )}
           
 
@@ -47,7 +48,9 @@ const HomePage = () => {
           </a>
         </div>
       </div>
+      
 
+      
       
     </div>
   );

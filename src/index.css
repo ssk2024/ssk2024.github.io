@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fefefe;
+  background-image: 
+    linear-gradient(rgba(213, 133, 104, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(226, 145, 115, 0.3) 1px, transparent 1px),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><g opacity="0.2"><circle cx="50" cy="50" r="12" fill="%23ff7f50"/><path d="M150 30 L170 50 L150 70 L130 50 Z" fill="%2387ceeb"/><circle cx="30" cy="150" r="10" fill="%2387ceeb"/><path d="M170 150 L185 165 L170 180 L155 165 Z" fill="%23ff7f50"/></g></svg>');
+  background-size: 20px 20px, 20px 20px, 200px 200px;
+  background-position: -1px -1px, -1px -1px, 0 0;
+  color: #2c3e50;
+  line-height: 1.6;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
+  background-color: rgba(255, 127, 80, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+kbd {
+  color: #1e3a8a;
+  text-decoration: none;
 }

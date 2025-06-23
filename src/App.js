@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import ExperiencePage from './pages/ExperiencePage';
 import AboutMePage from './pages/AboutMePage';
 import Header from './pages/Header'; // Import the Header component
+import './index.css';
 import './styles.css';
 
 function App() {
